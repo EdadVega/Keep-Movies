@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+}
+body{
+    background-color: #0f0c29;
+    color: aliceblue;
+}
+
+h1{
+   text-align: center;
+   font-size: 3em;
+}
+#container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: radial-gradient(#2c2f42, #161824);
+}
+
+#container div{
+    flex: 2;
+   flex-direction: row;
+   align-items: center;
+   margin: 8px;
+   padding: 0;
+   border-radius: 5px;
+   text-align: center;
+   background: linear-gradient(to bottom, #3a3c4a, #242632);
+   box-shadow: rgba(0, 0, 0, 0.69) 0px 26px 30px -10px,
+     rgba(0, 0, 0, 0.73) 0px 16px 10px -10px;
+}
+.poster-container p{
+    margin-top: 5%;
+}
+#container div img {
+    box-shadow: 0 10px 6px -6px rgba(6,4,12,0.801);
+    max-width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    transition: transform .5s ease;
+}
+
+#container div img:hover{
+    transform:scale(1.1);
+}
+h2{
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+
+.filtro{
+    display: none;
+}
+
+
+/* Footer */
+footer{
+    margin-top: 5%;
+    background: linear-gradient(to bottom, #3a3c4a, #242632);
+}
+
+
+
+ 
